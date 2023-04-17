@@ -1,0 +1,36 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq_div{
+    width: 600px;
+}
+
+.title_div{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icon:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.content{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
